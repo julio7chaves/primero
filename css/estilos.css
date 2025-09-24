@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.ciudad {
+  width: 200px;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.ciudad img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.ciudad:hover {
+  transform: scale(1.05);
+}
+
+.ciudad p {
+  margin-top: 10px;
+  font-weight: bold;
+}
